@@ -37,3 +37,13 @@ for count in counts:
 
 print("Sum:" + str(accumulator))
 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+Enter location:  http://py4e-data.dr-chuck.net/comments_469370.xm
+Retrieving  http://py4e-data.dr-chuck.net/comments_469370.xml
+Traceback (most recent call last):
+  File "C:/Users/ieyri/PycharmProjects/Giraffe/App.py", line 10, in <module>
+    xml = urllib.urlopen(url).read()
+AttributeError: module 'urllib' has no attribute 'urlopen'
+    
+    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
